@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/apriltag_ws/build/apriltag_ros/apriltag_ros_single_image_detector_node" "TARGETS" "apriltag_ros_single_image_detector_node" "DESTINATION" "lib/apriltag_ros")

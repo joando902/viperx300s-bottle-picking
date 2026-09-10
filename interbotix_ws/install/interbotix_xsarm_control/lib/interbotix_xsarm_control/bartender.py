@@ -1,1 +1,0 @@
-/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_control/demos/bartender.py

@@ -1,1 +1,0 @@
-controller_manager:interbotix_xs_ros_control:interbotix_xsarm_control:interbotix_xsarm_descriptions:joint_trajectory_controller:rclpy:rosbridge_server:sensor_msgs:std_msgs

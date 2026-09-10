@@ -1,1 +1,0 @@
-/home/apriltag_ws/build/apriltag_ros/rosidl_generator_py/apriltag_ros/msg/__init__.py

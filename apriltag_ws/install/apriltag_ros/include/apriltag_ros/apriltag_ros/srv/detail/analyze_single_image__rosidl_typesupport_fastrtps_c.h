@@ -1,1 +1,0 @@
-/home/apriltag_ws/build/apriltag_ros/rosidl_typesupport_fastrtps_c/apriltag_ros/srv/detail/analyze_single_image__rosidl_typesupport_fastrtps_c.h

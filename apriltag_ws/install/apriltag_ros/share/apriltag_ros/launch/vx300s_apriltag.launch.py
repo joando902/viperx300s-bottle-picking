@@ -1,1 +1,0 @@
-/home/apriltag_ws/src/apriltag_ros/apriltag_ros/launch/vx300s_apriltag.launch.py

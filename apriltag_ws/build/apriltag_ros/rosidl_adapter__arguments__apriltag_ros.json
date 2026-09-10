@@ -1,8 +1,0 @@
-{
-  "package_name": "apriltag_ros",
-  "non_idl_tuples": [
-    "/home/apriltag_ws/src/apriltag_ros/apriltag_ros:msg/AprilTagDetection.msg",
-    "/home/apriltag_ws/src/apriltag_ros/apriltag_ros:msg/AprilTagDetectionArray.msg",
-    "/home/apriltag_ws/src/apriltag_ros/apriltag_ros:srv/AnalyzeSingleImage.srv"
-  ]
-}

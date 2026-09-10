@@ -1,1 +1,0 @@
-/home/apriltag_ws/build/apriltag_ros/rosidl_generator_py/apriltag_ros/_apriltag_ros_s.ep.rosidl_typesupport_c.c

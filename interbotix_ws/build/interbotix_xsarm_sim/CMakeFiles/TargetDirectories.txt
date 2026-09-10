@@ -1,9 +1,0 @@
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/uninstall.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/interbotix_xsarm_sim_uninstall.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/test.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/edit_cache.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/rebuild_cache.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/list_install_components.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/install.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/install/local.dir
-/home/interbotix_ws/build/interbotix_xsarm_sim/CMakeFiles/install/strip.dir

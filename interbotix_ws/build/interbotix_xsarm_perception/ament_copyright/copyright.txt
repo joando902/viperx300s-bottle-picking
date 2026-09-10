@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
- - /opt/ros/humble/bin/ament_copyright --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml
-
-No problems found, checked 10 files
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml'

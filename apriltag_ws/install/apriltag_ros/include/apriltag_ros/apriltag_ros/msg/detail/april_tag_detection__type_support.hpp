@@ -1,1 +1,0 @@
-/home/apriltag_ws/build/apriltag_ros/rosidl_generator_cpp/apriltag_ros/msg/detail/april_tag_detection__type_support.hpp

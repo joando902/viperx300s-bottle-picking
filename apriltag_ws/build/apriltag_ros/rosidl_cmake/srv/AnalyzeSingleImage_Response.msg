@@ -1,2 +1,0 @@
-
-apriltag_ros/AprilTagDetectionArray tag_detections
