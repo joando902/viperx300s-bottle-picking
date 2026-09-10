@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "apriltag_ros__py",
+		"source" : "/home/apriltag_ws/build/apriltag_ros/apriltag_ros__py"
+	}
+}

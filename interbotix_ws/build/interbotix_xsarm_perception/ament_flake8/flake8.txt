@@ -1,0 +1,23 @@
+-- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml
+
+
+10 files checked
+No problems found
+
+Checked files:
+
+* ./demos/color_sorter.py
+* ./demos/chessboard_cleanup.py
+* ./demos/hand_eye_calibration.py
+* ./demos/pick_place.py
+* ./demos/size_organizer.py
+* ./demos/block_organizer.py
+* ./demos/bottle_detector.py
+* ./launch/hand_eye.launch.py
+* ./launch/xsarm_perception.launch.py
+* ./launch/bottle_detection.launch.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml'

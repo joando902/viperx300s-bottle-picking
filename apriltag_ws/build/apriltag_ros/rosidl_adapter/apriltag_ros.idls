@@ -1,0 +1,3 @@
+/home/apriltag_ws/build/apriltag_ros/rosidl_adapter/apriltag_ros:msg/AprilTagDetection.idl
+/home/apriltag_ws/build/apriltag_ros/rosidl_adapter/apriltag_ros:msg/AprilTagDetectionArray.idl
+/home/apriltag_ws/build/apriltag_ros/rosidl_adapter/apriltag_ros:srv/AnalyzeSingleImage.idl

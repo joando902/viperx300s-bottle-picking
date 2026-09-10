@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260824-0959-Experimental"
+	Name="joando-HP-Pavilion-Gaming-Laptop-16-a01xxx"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="joando-HP-Pavilion-Gaming-Laptop-16-a01xxx"
+	OSRelease="6.8.0-136-generic"
+	OSVersion="#136~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul  3 16:29:11 UTC "
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="16384"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15759"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3500.69"
+	>
+	<Testing>
+		<StartDateTime>Aug 24 17:59 CST</StartDateTime>
+		<StartTestTime>1787565557</StartTestTime>
+		<TestList>
+			<Test>./copyright</Test>
+			<Test>./flake8</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./pep257</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>copyright</Name>
+			<Path>.</Path>
+			<FullName>./copyright</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.334314</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml
+demos/hand_eye_calibration.py: could not find copyright notice
+launch/hand_eye.launch.py: could not find copyright notice
+2 errors, checked 8 files
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>copyright</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>flake8</Name>
+			<Path>.</Path>
+			<FullName>./flake8</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.352454</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml
+
+^
+1     W391 blank line at end of file
+
+./launch/hand_eye.launch.py:27:1: W391 blank line at end of file
+
+
+8 files checked
+1 errors
+
+'W'-type errors: 1
+
+Checked files:
+
+* ./demos/color_sorter.py
+* ./demos/chessboard_cleanup.py
+* ./demos/hand_eye_calibration.py
+* ./demos/pick_place.py
+* ./demos/size_organizer.py
+* ./demos/block_organizer.py
+* ./launch/hand_eye.launch.py
+* ./launch/xsarm_perception.launch.py
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/flake8.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>flake8</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/lint_cmake.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.169672</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/lint_cmake.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>pep257</Name>
+			<Path>.</Path>
+			<FullName>./pep257</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/pep257.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/pep257.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.27526</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/pep257.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/pep257.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/pep257.xunit.xml
+checking ./demos/block_organizer.py
+checking ./demos/chessboard_cleanup.py
+checking ./demos/color_sorter.py
+checking ./demos/hand_eye_calibration.py
+checking ./demos/pick_place.py
+checking ./demos/size_organizer.py
+checking ./launch/hand_eye.launch.py
+checking ./launch/xsarm_perception.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/pep257.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>pep257</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/xmllint.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.979361</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/xmllint.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Aug 24 17:59 CST</EndDateTime>
+		<EndTestTime>1787565559</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

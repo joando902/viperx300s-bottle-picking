@@ -1,0 +1,1 @@
+/home/apriltag_ws/build/apriltag_ros/rosidl_cmake/rosidl_cmake-extras.cmake

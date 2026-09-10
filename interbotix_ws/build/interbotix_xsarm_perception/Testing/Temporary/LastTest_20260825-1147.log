@@ -1,0 +1,28 @@
+Start testing: Aug 25 19:47 CST
+----------------------------------------------------------
+1/5 Testing: copyright
+1/5 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml" "--package-name" "interbotix_xsarm_perception" "--output-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml"
+Directory: /home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception
+"copyright" start time: Aug 25 19:47 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/interbotix_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_perception':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml
+No problems found, checked 10 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/interbotix_ws/build/interbotix_xsarm_perception/test_results/interbotix_xsarm_perception/copyright.xunit.xml'
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: Aug 25 19:47 CST
+"copyright" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 25 19:47 CST
+
+copyright =   0.51 sec*proc
+
+linter =   0.51 sec*proc
+
